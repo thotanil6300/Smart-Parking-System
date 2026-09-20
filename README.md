@@ -1,12 +1,12 @@
-# Smart Parking System 🚗🅿️
+ Smart Parking System 
 
-## 📌 Project Overview
+ Project Overview
 
 The Smart Parking System is an IoT-based mini project developed to automate and monitor a parking area.
 
 The system uses IR sensors to detect vehicles at the entrance and exit, a servo motor to control the parking gate, and an I2C LCD to display the parking status.
 
-## 🎯 Objectives
+ Objectives
 
 - Automate the parking entrance gate.
 - Detect vehicle entry and exit.
@@ -15,7 +15,7 @@ The system uses IR sensors to detect vehicles at the entrance and exit, a servo 
 - Indicate the gate status using red and green LEDs.
 - Make parking management simple and efficient.
 
-## 🛠️ Components Used
+Components Used
 
 - Arduino UNO
 - 2 × IR Sensors
@@ -27,7 +27,7 @@ The system uses IR sensors to detect vehicles at the entrance and exit, a servo 
 - Breadboard
 - USB Cable / Power Supply
 
-## ⚙️ Working Principle
+Working Principle
 
 1. The entry IR sensor detects a vehicle approaching the parking gate.
 2. The system checks the available parking slots.
@@ -38,7 +38,7 @@ The system uses IR sensors to detect vehicles at the entrance and exit, a servo 
 7. The number of occupied and available slots is updated.
 8. When the parking area is full, the gate remains closed and the red LED indicates the closed/full condition.
 
-## 🔌 Main Connections
+ Main Connections
 
 - Entry IR Sensor → Arduino digital input
 - Exit IR Sensor → Arduino digital input
@@ -47,17 +47,17 @@ The system uses IR sensors to detect vehicles at the entrance and exit, a servo 
 - Red LED → Arduino digital output
 - Green LED → Arduino digital output
 
-## 💻 Software Used
+ Software Used
 
 - Arduino IDE
 - Arduino C/C++ programming
 - Tinkercad for circuit simulation/prototyping
 
-## 📂 Project Files
+Project Files
 
 - `Smart_Parking_Code.ino` – Main Arduino program.
 
-## 🌟 Features
+ Features
 
 - Automatic gate control
 - Vehicle entry and exit detection
@@ -66,6 +66,6 @@ The system uses IR sensors to detect vehicles at the entrance and exit, a servo 
 - LED gate indication
 - Simple and low-cost implementation
 
-## 👨‍💻 Project Type
+ Project Type
 
 **IoT Mini Project – Smart Parking System**
